@@ -1,0 +1,91 @@
+========================== TIPE DATA C++ ===========================
+
+1. Int (integer) adalah tipe data untuk numerik yang sering digunakan 
+   untuk data berupa angka (Bilangan Bulat).
+2. Void (Kosong) adalah tipe data yang tidak bertipe karena mempunyai
+   ukuran 0 byte, biasanya digunakan untuk tipe data kosong seperti
+   membuat fungsi.
+3. Char (Character) adalah tipe data untuk karakter yang sering digunakan
+   pada tipe data yang menggunakan huruf dan angka sebagai datanya.
+4. Float (Floating Point) adalah tipe data untuk numerik yang digunakan
+   pada data berupa angka pecahan yang lain desimalnya dua kali lebih banyak.
+5. Bool (Boolean) adalah tipe data yang digunakan untuk menentukan false or 
+   true, tipe data ini sama seperti bilangan biner hanya ada dua angka saja
+   0 dan 1.
+6. Double (Double Floating Point) adalah tipe data untuk numerik yang digunakan
+   untuk data berupa angka pecahanyang nilai desimalnya dua kali lebih banyak.
+7. Wchar-t adalah tipe data yang digunakan sama seperti char yang menyimpan karakter
+   besar, biasanya digunakan untuk menyimpan karakter yang tidak ada huruf abjad.
+
+
+
+//Untuk Hasil (Output) {12345678910}
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	for (int i=1; 1<=10; i++)
+{
+	cout << i;
+}
+}
+
+
+//Untuk Hasil (Output) {13579}
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	for (int i=1; 1<=10; i+=2)
+{
+	cout << i;
+}
+}
+
+
+//Untuk Hasil (Output) {0}
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	for (int i=1; 1<=10; i++)
+{
+	//cout << i;
+}
+	cout <<a;
+}
+
+
+//Untuk Hasil (Output) {1 Turun Vertical}
+#include <iostream>
+using namespace std;
+
+int i=1;
+int main()
+{
+	for (i; i<=10; i++)
+{
+	cout << "1" <<endl;
+}
+}
+
+
+
+//Untuk Hasil (Output) {1 Turun Vertical Baris 5 "Quantumteam"}
+#include <iostream>
+using namespace std;
+
+int i=1;
+int main()
+{
+	for (i; i<=10; i++)
+{
+	if (i==5){
+	cout << "Quantumteam" <<endl;
+}
+cout << "1" <<endl;
+}
+}
